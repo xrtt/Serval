@@ -4,9 +4,9 @@ namespace Serval.Domain
 {
     public class StringProvider
     {
-        public string GetString()
+        public string GetString(int num = 0)
         {
-            return "Hell world!";
+            return $"Hell world! {num}";
         }
     }
 }
